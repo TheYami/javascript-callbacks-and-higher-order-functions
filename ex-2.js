@@ -25,17 +25,17 @@ let scoreRoom1Result;
 let scoreRoom2Result;
 let scoreRoom3Result;
 
-scoreRoom1Result = atLeastFive(studentScoresRoom1,function(score){
+scoreRoom1Result = `นักเรียนห้องที่ 1 ${atLeastFive(studentScoresRoom1,function(score){
   return score >= 70;
-});
+})}`;
 
-scoreRoom2Result = atLeastFive(studentScoresRoom2,function(score){
+scoreRoom2Result = `นักเรียนห้องที่ 2 ${atLeastFive(studentScoresRoom2,function(score){
   return score >= 70;
-});
+})}`;
 
-scoreRoom3Result = atLeastFive(studentScoresRoom3,function(score){
+scoreRoom3Result = `นักเรียนห้องที่ 3 ${atLeastFive(studentScoresRoom3,function(score){
   return score >= 70;
-});
+})}`;
 
 
 
