@@ -3,7 +3,7 @@
 function forEach(array, operation) {
   // Start coding here
   for(let i = 0; i < array.length; i++){
-    operation(array[i],i)
+    operation(array[i])
   }
 }
 
